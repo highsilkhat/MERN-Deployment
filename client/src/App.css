@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  height: 100vh;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.card {
+  background-color: darkseagreen;
+  border: burlywood 2px solid;
+  width: 60%;
+  margin: 0% auto;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.pirateImage {
+  height: 200px;
+  justify-content: center;
+}
+
+.showPirateImage {
+  height: 200px;
+}
+
+.oneViewBtn {
+  color: gold;
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: lightskyblue;
+  box-shadow: 5px 2px 2px darkblue;
+  width: 150px;
+  height: 30px;
+  margin: 20px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+}
+
+.deleteBtn {
+  color: gold;
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: crimson;
+  box-shadow: 5px 2px 2px darkred;
+  width: 150px;
+  height: 30px;
+  margin: 20px;
+  border: 2px solid darkred;
+  border-radius: 5px;
+}
+
+.pirateHeader {
+  background-color: rgba(136, 112, 81, 0.473);
+  display: flex;
+  justify-content: space-around;
+  height: 75px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightCard {
+  margin-right: 100px;
+  
+}
+
+.bottomRightCard {
+  display: flex;
+}
+
+.yes {
+  color: gold;
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: lightskyblue;
+  box-shadow: 5px 2px 2px darkblue;
+  width: 50px;
+  height: 20px;
+  margin: 5px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+}
+
+.no {
+  color: gold;
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: crimson;
+  box-shadow: 5px 2px 2px darkred;
+  width: 50px;
+  height: 20px;
+  margin: 5px;
+  border: 2px solid darkred;
+  border-radius: 5px;
+}
+
+.form {
+  
+  margin: 0% auto;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items:stretch;
+}
+
+/* .inputItem{
+
+  margin: 50px;
+} */
+
+.rightForm {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.leftForm {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.showOneCard {
+  background-color: darkseagreen;
+  border: burlywood 2px solid;
+  width: 33%;
+  margin: 0% auto;
+  min-height: 200px;
+  /* display: flex;
+  justify-content: space-between; */
+  margin-top: 10px;
+
+}
+
+.showRightCol {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
